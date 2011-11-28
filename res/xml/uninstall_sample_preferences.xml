@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/direct_uninstall_method">
+		<CheckBoxPreference android:key="uninstall_checkbox"
+			android:title="@string/enable_direct_uninstall_method"
+			android:summary="@string/check_direct_uninstall_method" />
+	</PreferenceCategory>
+		<PreferenceCategory android:title="@string/uninstall_sort_settings">
+		<ListPreference android:key="uninstall_listType"
+						android:title="@string/uninstall_sample_pref_sel_dialog_type" 
+						android:summary="@string/uninstall_sample_pref_click_pop_up_type"
+						android:entries="@array/uninstall_numbernamesType"
+						android:entryValues="@array/uninstall_numbersType"
+						android:dialogTitle="@string/uninstall_sample_pref_choose_number_type" />
+		<ListPreference android:key="uninstall_listOrder"
+						android:title="@string/uninstall_sample_pref_sel_dialog_order" 
+						android:summary="@string/uninstall_sample_pref_click_pop_up_order"
+						android:entries="@array/uninstall_numbernamesOrder"
+						android:entryValues="@array/uninstall_numbersOrder"
+						android:dialogTitle="@string/uninstall_sample_pref_choose_number_order" />						
+	</PreferenceCategory>
+</PreferenceScreen>

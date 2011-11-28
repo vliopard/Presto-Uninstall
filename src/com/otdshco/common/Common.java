@@ -1,0 +1,45 @@
+package com.otdshco.common;
+public class Common
+{
+	public static final int		ACTION_VALUE_ON_CLICK				=4;
+	public static final int		ACTION_VALUE_REFRESH_LIST_ADAPTER	=5;
+	public static final int		CREATE_DIALOG						=3;
+	public static final int		SETTINGS_ACTIVITY					=2;
+	public static final String	TEXT_KEY_1							="TK1";
+	public static final String	TEXT_KEY_2							="TK2";
+	public static final String	TEXT_KEY_3							="TK3";
+	public static final String	ITEM_ID								="ID1";
+	public static final String	IMG_KEY								="IMG";
+	public static final String	SELECTED_ITEM_KEY					="SIK";
+	public static final String	SETTINGS_ID							="ID2";
+	public static final String	ACTION_VALUE						="OTDS.VALUE";
+	public static final String	THREAD_WORKING						="WORKING";
+	public static final String	DONE_WORKING						="DONE";
+	public static final String	translate_TOTAL_APPS				="Total Applications: ";
+	public static final String	translate_SELECTED_APPS				="Selected: ";
+	public static final String	translate_UNINSTALLING_MESSAGE		="Uninstalling ";
+	public static final String	translate_INSTALLING_MESSAGE		="Installing ";
+	public static final String	translate_LOADING_TITLE				="Loading, please wait.";
+	public static final String	translate_LOADING_MESSAGE			="Reading applications...";
+	public static final String	translate_DONE_STATUS				="[ Done ]";
+	public static final String	translate_UNINSTALL_BTN				="Start Uninstall";
+	public static final String	translate_INSTALL_BTN				="Start Install";
+	public static final String	translate_RESTORE_BTN				="Start Restore";
+	public static final String	translate_SETTINGS_BTN				="Settings";
+	public static final String	translate_CURRENT_WORKING			="[Working...]";
+	public static final String	translate_WAIT_MSG					="[Please Wait...]";
+	public static final String	translate_IO_ERROR					="Input/Output Error";
+	public static final String	translate_NO_FILE_SELECTION			="No application selected";
+	public static final String	translate_BACKUP_DIR				="backupdir";
+	public static final String	translate_BACKUP_DIR_VALUE			="PrestoBackup";
+	public static final String	RESTORE_CHECKBOX					="restore_checkbox";
+	public static final String	RESTORE_LIST_TYPE					="restore_listType";
+	public static final String	RESTORE_LIST_ORDER					="restore_listOrder";
+	public static final String	RESTORE_LIST_ORDER_VALUE			="1";
+	public static final String	RESTORE_LIST_TYPE_VALUE				="2";
+	public static final String	UNINSTALL_CHECKBOX					="uninstall_checkbox";
+	public static final String	UNINSTALL_LIST_TYPE					="uninstall_listType";
+	public static final String	UNINSTALL_LIST_ORDER				="uninstall_listOrder";
+	public static final String	UNINSTALL_LIST_ORDER_VALUE			="1";
+	public static final String	UNINSTALL_LIST_TYPE_VALUE			="2";
+}
